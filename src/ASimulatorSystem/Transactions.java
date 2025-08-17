@@ -22,6 +22,15 @@ public class Transactions extends JFrame implements ActionListener{
         l1 = new JLabel("Please Select Your Transaction");
         l1.setForeground(Color.WHITE);
         l1.setFont(new Font("System", Font.BOLD, 16));
+
+
+
+
+        JButton bTransfer = new JButton("Fund Transfer");  // Fund Transfer
+        bTransfer.setBounds(150, 350, 150, 30);
+        bTransfer.addActionListener(this);
+        add(bTransfer);
+
         
        
         b1 = new JButton("DEPOSIT");
@@ -98,6 +107,11 @@ public class Transactions extends JFrame implements ActionListener{
         }else if(ae.getSource()==b7){ 
             System.exit(0);
         }
+        else if (ae.getSource() == bTransfer) {
+            setVisible(false);
+            new Transfer(pin).setVisible(true);
+        }
+
     }
     
     public static void main(String[] args){
