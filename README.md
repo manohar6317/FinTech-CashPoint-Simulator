@@ -1,23 +1,23 @@
 
 -----
 
-# 📌 FinTech CashPoint Simulator
+#  FinTech CashPoint Simulator
 
 The FinTech CashPoint Simulator is a Java-based desktop application that simulates the basic operations of an Automated Teller Machine (ATM). It provides functionalities such as user authentication, cash withdrawal, deposits, balance enquiry, mini statements, and more.
 
 This project is designed to demonstrate Java Swing (GUI), JDBC (Database Connectivity), and object-oriented programming principles.
 
-## 🚀 Features
+##  Features
 
-  - 🔑 User Authentication (Login/Signup)
-  - 🏦 Deposit Money
-  - 💸 Withdraw Cash (Custom & Fast Cash options)
-  - 📊 Balance Enquiry
-  - 📜 Mini Statement Generation
-  - 🔄 Transaction History
-  - 🖥️ Simple Graphical User Interface (GUI) using Java Swing
+  -  User Authentication (Login/Signup)
+  -  Deposit Money
+  -  Withdraw Cash (Custom & Fast Cash options)
+  -  Balance Enquiry
+  -  Mini Statement Generation
+  -  Transaction History
+  -  Simple Graphical User Interface (GUI) using Java Swing
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
   - **Programming Language:** Java
   - **Database:** MySQL (via JDBC)
@@ -25,7 +25,7 @@ This project is designed to demonstrate Java Swing (GUI), JDBC (Database Connect
   - **UI:** Java Swing
   - **Build Tool:** Ant
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 FinTech-CashPoint-Simulator/
@@ -51,7 +51,7 @@ FinTech-CashPoint-Simulator/
 └── nbproject/              # NetBeans project settings
 ```
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 #### 1\. Clone the repository
 
@@ -95,7 +95,7 @@ Connection c = DriverManager.getConnection(
 ant run
 ```
 
-## 🗄️ Database Schema
+##  Database Schema
 
 #### Users Table
 
@@ -121,14 +121,14 @@ ant run
 | type        | `VARCHAR(20)` | `Deposit`, `Withdraw`, `FastCash` |
 | amount      | `DECIMAL`     | Transaction amount                |
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
   - [ ] Add card number & PIN validation
   - [ ] Implement encryption for secure login
   - [ ] Add admin panel for bank staff
   - [ ] Improve UI with modern JavaFX
 
-## 📸 Screenshots
+##  Screenshots
 
 *TESTING ( WILL UPLOAD SOON)*
 
